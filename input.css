@@ -69,3 +69,7 @@
 .buttonsh {
     box-shadow: 0px 7px 25px -7px rgba(246, 134, 106);
 }
+
+.hovered:hover {
+    filter: invert(47%) sepia(46%) saturate(3205%) hue-rotate(339deg) brightness(99%) contrast(91%);
+}

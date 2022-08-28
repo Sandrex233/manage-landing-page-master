@@ -968,6 +968,10 @@ video {
   box-shadow: 0px 7px 25px -7px rgba(246, 134, 106);
 }
 
+.hovered:hover {
+  filter: invert(47%) sepia(46%) saturate(3205%) hue-rotate(339deg) brightness(99%) contrast(91%);
+}
+
 .hover\:bg-brightRedLight:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(12 88% 69% / var(--tw-bg-opacity));
@@ -976,6 +980,11 @@ video {
 .hover\:bg-gray-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-brightRed:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(12 88% 59% / var(--tw-bg-opacity));
 }
 
 .hover\:text-darkGrayishBlue:hover {
